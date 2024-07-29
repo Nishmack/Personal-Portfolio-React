@@ -5,7 +5,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpeg";
 import projImg2 from "../assets/img/project-img2.jpeg";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.jpg";
+import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.jpg";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -34,11 +34,13 @@ export const Projects = () => {
       title: "Personal Portfolio",
       description: "Website is a showcase of my skills, projects, and professional journey as a MERN stack developer.",
       imgUrl: projImg3,
+      link: "https://nishmack.github.io/portfolioreactapp/"
     },
     {
-      title: "Construction Company website",
-      description: "comprehensive website developed for a construction company, designed to showcase their services, portfolio, and company information",
+      title: "Food delivery App",
+      description: "Enabling users to browse restaurant menus,add items to their cart and place orders with ease.The app offers a seamless and interactive experience,quick and efficient food delivery.",
       imgUrl: projImg4,
+      link: "https://66a76bf726091a1345d9e5b5--keen-florentine-6f1f2f.netlify.app/"
       
     },
     {
